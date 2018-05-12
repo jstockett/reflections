@@ -1,0 +1,28 @@
+
+Lesson 1: Navigating a Commit History
+
+using the diff command made finding errors much faster than scanning the code manually
+short lines of code make it easier to find errors using diff
+command syntax is diff -u oneFileName anotherFileName (this is for linux or mac)
+command syntax is FC oneFileName anotherFileName (this is for windows command prompt)
+
+many systems use version control (dropbox, google docs/drive, wikipedia)
+right click file in google drive and select Manage versions to see previous versions
+
+as a programer version control would make it easier to find problems, experiment, 
+and refine programs
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+	pros - allows user to choose size of commit(and logically break commits into functional
+	sizes), limit the amount of clutter in the version history, include commit notes
+
+	cons - requires users to remember to commit versions
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+	
+	Git allows you to track interrelated files, since making changes in one file often
+	requires changes in the related files
+
+
+
