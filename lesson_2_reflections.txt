@@ -1,0 +1,16 @@
+How can you use the commands git log and git diff to view the history of files?
+
+	git log shows the commit history and comments
+	git diff ($ git diff firstBranch secondBranch) shows the differences of the two commits
+
+	3884eab839af1e82c44267484cf2945a766081f3  most recent commit
+
+How might using version control make you more confident to make changes that could break something?
+
+	using git checkout lets you go back to previous versions and run them to isolate when a problem was introduced
+
+	using git diff helps you find the specific code changes that caused the problem
+
+fa4c6bade4970c282b3870ad16f1bde8164663a9 most recent Pappu Pakia commit
+
+no bug @ commit 71d52709ddc4066e7a79a1d0a412e43429a0cdeb   
