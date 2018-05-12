@@ -1,0 +1,10 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+	When the comman git init is run it creates the .git file in the working directory.  The 
+	.git file stores the meta data of the repository.  Git init does not perform a commit.  
+	Running git status will show the current commit(this will show 'Initial commit' on a 
+	newly created repository) and the tracked/untracked files.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+	
+	The staging area shows which files you want to track.  By having a staging area git lets you choose which files to track and when to start tracking them.
